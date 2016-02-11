@@ -17,5 +17,6 @@ data$Datetime <- strptime(data$Datetime,'%d/%m/%Y %H:%M:%S')
 png('plot2.png',width=480,height=480)
 
 # Perform plotting
-plot(data$Datetime,data$GAP,type='l',ylab='Global Active Power (kilowatts)')
+plot(data$Datetime,data$GAP,type='l',xlab="",
+     ylab='Global Active Power (kilowatts)')
 dev.off()

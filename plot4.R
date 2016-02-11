@@ -28,7 +28,7 @@ plot(data$Datetime,data$GAP,type= "l",ylab="Global Active Power")
 plot(data$Datetime,data$V,type='l',xlab='datetime',ylab='Voltage')
 
 plot(data$Datetime,data$SM1,type='l',ylab='Energy sub metering')
-lines(data$Datetime,data$SM2,type='l',col='blue')
+lines(data$Datetime,data$SM2,type='l',col='red')
 lines(data$Datetime,data$SM3,type='l',col='blue')
 
 legendLabels = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
